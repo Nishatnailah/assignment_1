@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">chocolates</string>
+    <string name="white_chocolate">White Chocolate</string>
+    <string name="dark_chocolate">Dark Chocolate</string>
+    <string name="clear">Clear</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="stress_out_and_eat_chocolate">Stress out and eat chocolate</string>
+    <string name="next">Next</string>
+    <string name="kitkat">kitkat</string>
+    <string name="dairy_milk">Dairy Milk</string>
+    <string name="snickers">Snickers</string>
+    <string name="ferrero">Ferrero</string>
+    <string name="have_a_break_have_a_kit_kat">Have a break,have a kit kat</string>
+    <string name="kuch_meetha_ho_jayee">Kuch meetha ho jayee</string>
+    <string name="you_re_not_you_when_you_re_hungry">You\'re not you when you\'re hungry</string>
+    <string name="irresistible_taste_experience">Irresistible taste experience</string>
+</resources>

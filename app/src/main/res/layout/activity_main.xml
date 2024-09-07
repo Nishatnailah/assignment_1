@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/img_4"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/btn_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/white_chocolate"
+            android:padding="12dp"
+            android:backgroundTint="#B19B5C"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp" />
+        <Button
+            android:id="@+id/btn_dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dark_chocolate"
+            android:padding="12dp"
+            android:backgroundTint="#450703"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp" />
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_text"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:backgroundTint="#23673AB7"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/clear"
+        android:backgroundTint="#BA2196F3"
+        android:textColor="@color/black"
+        android:layout_marginEnd="10dp" />
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/next"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#906897"
+        android:textColor="@color/black"
+        android:layout_marginEnd="10dp" />
+
+
+
+</LinearLayout>
